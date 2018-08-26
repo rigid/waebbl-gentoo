@@ -69,7 +69,6 @@ IUSE="eigen3 +freetype +qt5 swig ${IUSE_FREECAD_MODULES}"
 #		zipio++ - not in portage yet
 COMMON_DEPEND="
 	${PYTHON_DEPS}
-	dev-java/xerces
 	dev-libs/boost:=[python,${PYTHON_USEDEP}]
 	dev-libs/xerces-c[icu]
 	sci-libs/orocos_kdl
